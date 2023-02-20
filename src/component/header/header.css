@@ -1,0 +1,30 @@
+.header__container{
+  background-color: brown;
+
+}
+.header__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__home{
+  margin-left: 1rem;
+}
+
+.header__links{
+  display: flex;
+  gap: 1rem;
+}
+.header__links>a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.header__login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
