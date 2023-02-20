@@ -1,6 +1,4 @@
-.header__container{
 
-}
 .header__wrapper{
   display: flex;
   align-items: center;
@@ -19,5 +17,31 @@
 }
 .header__login > a{
   text-decoration: none;
-  
+}
+
+.header__wrapper2{
+  display: none;
+  align-items: center;
+  background-color: grey;
+  position: sticky;
+  top: 2rem;
+}
+.dropdown-menu{
+  position: relative;
+  cursor: pointer;
+  color: white;
+  background-color: grey;
+}
+
+.dropdown-content{
+  position: absolute;
+}
+
+.dropdown-services > button{
+  display: flex;
+  gap: 1rem;
+}
+.dropdown-services >button>svg{
+  transform: rotate(90deg);
+  color: grey;
 }
