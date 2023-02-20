@@ -1,0 +1,26 @@
+.dropdown{
+  position: relative;
+  display: inline-block;
+  color: gray;
+  font-size: 1.2rem;
+}
+.dropdown:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  padding: 1rem 1rem;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: bisque;
+}
+.dropdown-content>a{
+  text-decoration: none;
+  display: block;
+  padding: 1rem 0;
+}

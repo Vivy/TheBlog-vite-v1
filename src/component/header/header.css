@@ -1,5 +1,4 @@
 .header__container{
-  background-color: brown;
 
 }
 .header__wrapper{
@@ -7,28 +6,18 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .header__home{
-  margin-left: 1rem;
+  padding: 2rem 3rem;
 }
-.header__home>a{
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-.header__links{
-  display: flex;
-  gap: 1rem;
-}
-.header__links>a{
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
+.header__home > a>img{
+  width: 150px;
 }
 .header__login{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding: 0 1rem;
+  padding: 0 4rem;
+}
+.header__login > a{
+  text-decoration: none;
+  
 }

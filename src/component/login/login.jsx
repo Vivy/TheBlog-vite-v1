@@ -1,6 +1,10 @@
-import React from 'react';
+import { Field, Formik } from 'formik';
+import { Form } from 'react-router-dom';
 
 const Login = () => {
+  const onSubmit = (v) => {
+    console.log(v, 'these are the values');
+  };
   return (
     <div>
       <Formik
