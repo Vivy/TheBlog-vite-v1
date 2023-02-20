@@ -1,0 +1,24 @@
+.register__container{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.register__wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 2rem 2rem ;
+  width: 20rem;
+  border-radius: 3rem;
+  justify-content: center;
+}
+
+.register__wrapper >form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
