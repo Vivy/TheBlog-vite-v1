@@ -5,6 +5,7 @@ import Navbar from './component/navbar/navbar';
 import Login from './component/login/login';
 import Register from './component/register/register';
 import Home from './component/home/home';
+import Latest from './component/latest/latest';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='register' element={<Register />}></Route>
           <Route path='login' element={<Login />}></Route>
         </Routes>
+        <Latest />
       </BrowserRouter>
     </div>
   );

@@ -34,7 +34,7 @@ const Header = () => {
                 click === 'none' ? setClick('block') : setClick('none');
               }}
             >
-              Services
+              Sections
               <FaGreaterThan />
             </button>
           </div>
