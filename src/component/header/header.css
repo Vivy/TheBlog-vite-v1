@@ -23,8 +23,10 @@
   display: none;
   align-items: center;
   background-color: grey;
-  position: sticky;
-  top: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 55;
 }
 .dropdown-menu{
   position: relative;

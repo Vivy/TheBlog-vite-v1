@@ -1,0 +1,22 @@
+.latest__container{
+  display: flex;
+  flex-direction: column;
+  padding: 8rem;
+  position: relative;
+}
+
+.sponsored__links{
+  position: sticky;
+  left: 60%;
+  top: 10rem;
+  width: 20rem;
+  padding: 2rem 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.latest__article{
+  /* display: flex; */
+}

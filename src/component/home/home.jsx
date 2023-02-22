@@ -7,6 +7,7 @@ const Home = () => {
       <Article />
       <Article />
       <Article />
+      <span className='home__devider'> </span>
       <div className='home__wrapper'>
         <Article />
         <Article />

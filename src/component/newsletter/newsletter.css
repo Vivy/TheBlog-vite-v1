@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-left: 8rem;
-  margin-right: 24rem;
+  /* margin-left: 8rem; */
+  margin-right: 20rem;
 }
 
 .newsletter__wrapper{
@@ -31,7 +31,8 @@
 
 .newsletter__links{
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .newsletter__divider{
