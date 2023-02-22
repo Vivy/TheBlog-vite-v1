@@ -1,3 +1,5 @@
+import './articlelcontent.css';
+
 const ArticleContent = ({ art }) => {
   console.log(art, 'this is art');
   return (
@@ -17,9 +19,12 @@ const ArticleContent = ({ art }) => {
             <p>{text}</p>
           ))}
         </div>
+        <button className='art__btn'> View All Comments</button>
         <div className='art__tags'>
           {art.tag.map((tags) => (
-            <p>{tags}</p>
+            <a className='art__anchor' href=''>
+              {tags}
+            </a>
           ))}
         </div>
       </div>
