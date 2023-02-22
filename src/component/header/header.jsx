@@ -1,5 +1,5 @@
 import './header.css';
-import logo from '../../assets/images/Engadget-logo.svg.png';
+import logo from '../../../public/images/Engadget-logo.svg.png';
 import headerHook from '../hooks/hooks';
 import { FaGreaterThan } from 'react-icons/fa';
 import { useState } from 'react';

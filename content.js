@@ -1,11 +1,13 @@
+
 const content = [
   {
     title: 'The first blog',
     subTitle: 'The short description of the first blog',
-    img: ['./assets/images/games1.jpg', './assets/images/games2.jpg'],
+    img: ['./images/games1.jpg', './images/games2.jpg'],
     tag: ['games', 'mobile', 'mobile games'],
+    id: 1,
     user: {
-      profilePicture: '',
+      profilePicture: 'merge',
       name: 'Ion Puchina',
       id: '@ionpuchi',
     },
@@ -21,8 +23,9 @@ const content = [
   {
     title: 'The second blog',
     subTitle: 'The short description of the second blog',
-    img: ['./assets/images/app1.jpg', './assets/images/app2.jpg',],
+    img: ['./images/app1.jpg', './images/app2.jpg',],
     tag: ['applications', 'mobile', 'mobile app'],
+    id: 2,
     user: {
       profilePicture: '',
       name: 'Gigi Smochina',
@@ -39,8 +42,9 @@ const content = [
   {
     title: 'The third blog',
     subTitle: 'The short description of the third blog',
-    img: ['./assets/images/music1.jpg', './assets/images/music2.jpg', './assets/images/music3.jpg'],
+    img: ['./images/music1.jpg', './images/music2.jpg', './images/music3.jpg'],
     tag: ['music', 'mobile', 'mobile music', 'house', 'tehno', 'chillout'],
+    id: 3,
     user: {
       profilePicture: '',
       name: 'Frusina Mandarina',
@@ -59,8 +63,9 @@ const content = [
   {
     title: 'The forth blog',
     subTitle: 'The short description of the forth blog',
-    img: ['./assets/images/movies1.jpg', './assets/images/movies2.jpg'],
+    img: ['./images/movies1.jpg', './images/movies2.jpg'],
     tag: ['movies', 'mobile', 'tablet', 'laptop', 'genres', 'action', 'sci-fi'],
+    id: 4,
     user: {
       profilePicture: '',
       name: 'Ciordeles Miau',
@@ -79,8 +84,9 @@ const content = [
   {
     title: 'The fifth blog',
     subTitle: 'The short description of the fifth blog',
-    img: ['./assets/images/sports.jpg'],
+    img: ['./images/sports.jpg'],
     tag: ['sports', 'footbal', 'soccer', 'tenis', 'bascketball'],
+    id: 5,
     user: {
       profilePicture: '',
       name: 'Mercedesa Galeata',
@@ -103,8 +109,9 @@ const content = [
   {
     title: 'The sixed blog',
     subTitle: 'The short description of the sixed blog',
-    img: ['./assets/images/food1.jpg', '.assets/images/food2.jpg'],
+    img: ['./images/food1.jpg', '.assets/images/food2.jpg'],
     tag: ['food', 'eat', 'pizza', 'shaorma', 'vegetarian', 'mici'],
+    id: 6,
     user: {
       profilePicture: '',
       name: 'Spiderman Batman',
@@ -121,8 +128,9 @@ const content = [
   {
     title: 'The seventh blog',
     subTitle: 'The short description of the seventh blog',
-    img: ['./assets/images/alcohol.jpg'],
+    img: ['./images/alcohol.jpg'],
     tag: ['alcohol', 'wisky', 'vodka', 'rum', 'beer'],
+    id: 7,
     user: {
       profilePicture: '',
       name: 'Ciomag Betivaneanu',

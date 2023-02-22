@@ -1,11 +1,16 @@
 import { Link } from 'react-router-dom';
 import './article.css';
 import { BiTimeFive } from 'react-icons/bi';
-import picture from '../../assets/images/download.jpg';
+import picture from '../../../public/images/download.jpg';
+import content from '../../../content';
+import ArticleContent from '../articlelist/articlecontent';
 
 const Article = () => {
   return (
     <div className='article__container'>
+      {content.map((art) => (
+        <ArticleContent art={art} />
+      ))}
       <div>
         <Link to='/login'>
           <img src={picture} alt='picture' />
