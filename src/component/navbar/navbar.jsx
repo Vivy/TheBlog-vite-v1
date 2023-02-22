@@ -49,6 +49,7 @@ const Navbar = () => {
       )}
       {search && (
         <div className='navbar__search'>
+          <BsSearch />
           <input
             type='text'
             id='search'

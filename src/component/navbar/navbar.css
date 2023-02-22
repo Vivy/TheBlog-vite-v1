@@ -8,12 +8,11 @@
 
 .navbar__links{
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .navbar__links > a{
   text-decoration: none;
-  color: grey;
+  color: rgb(186, 183, 183);
   padding: 2rem 1rem ;
   font-weight: bolder;
 }
@@ -24,6 +23,10 @@
 .navbar__search{
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 2rem;
+  gap: 1rem;
 }
 
 .navbar__search>input {
@@ -33,6 +36,7 @@
   border: none;
   border-bottom: 1px solid;
   font-size: 2rem;
+  flex-grow: 1;
 }
 
 .navbar__search>svg{
@@ -46,6 +50,7 @@
   font-size: 1.3rem;
   display: flex;
   gap: 1rem;
+  padding: 0 3rem;
 }
 .navbar__social-media>a{
   text-decoration: none;
@@ -56,4 +61,8 @@
   color: gray;
 }
 
-
+.dropbtn{
+  background: transparent;
+  border: none;
+  color: grey;
+}

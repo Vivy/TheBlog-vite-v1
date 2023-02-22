@@ -3,18 +3,16 @@ import './home.css';
 const Home = () => {
   return (
     <div className='home__container'>
-      <Article />
-      <Article />
-      <Article />
-      <Article />
+      <div className='home__left'>
+        <Article />
+      </div>
       <span className='home__devider'> </span>
       <div className='home__wrapper'>
         <Article />
-        <Article />
+      </div>
+      <div className='home__right'>
         <Article />
       </div>
-      <Article />
-      <Article />
     </div>
   );
 };

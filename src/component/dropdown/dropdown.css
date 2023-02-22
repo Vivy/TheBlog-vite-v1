@@ -10,17 +10,22 @@
 }
 .dropdown:hover .dropdown-content{
   display: block;
-  padding: 1rem 1rem;
 }
 
 .dropdown-content{
   display: none;
   position: absolute;
   z-index: 1;
-  background-color: bisque;
+  background-color: rgb(84, 80, 80);;
 }
 .dropdown-content>a{
   text-decoration: none;
   display: block;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
+  color: white;
+}
+
+.dropdown-content>a:hover{
+  background-color: rgb(173, 168, 161);
+  
 }
