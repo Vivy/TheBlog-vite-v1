@@ -4,7 +4,9 @@ const Home = () => {
   return (
     <div className='home__container'>
       <div className='home__left'>
-        <Article />
+        <div className='home__left-small'>
+          <Article />
+        </div>
       </div>
       <span className='home__devider'> </span>
       <div className='home__wrapper'>

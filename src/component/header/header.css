@@ -28,6 +28,23 @@
   width: 100%;
   z-index: 55;
 }
+
+.header__wrapper2> a{
+  position: relative;
+  right: -42rem;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid;
+  padding: 0 2rem;
+}
+
+.header__wrapper2 > label{
+  position: relative;
+  right: -45rem;
+  color: white;
+  cursor: pointer;;
+}
+
 .dropdown-menu{
   position: relative;
   cursor: pointer;
@@ -46,4 +63,29 @@
 .dropdown-services >button>svg{
   transform: rotate(90deg);
   color: grey;
+}
+
+.header__search>input {
+  background-color: rgb(55, 51, 51);
+  color: grey;
+  line-height: 3rem;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+.header__search>svg{
+  color: black;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.header__search{
+  display: flex;
+  align-items: center;
+  gap: 0 2rem;
+  justify-content: flex-start;
+  z-index: 4;
+  flex-grow: 1;
 }

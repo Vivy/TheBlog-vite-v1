@@ -1,0 +1,78 @@
+.login__container{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login__display{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1rem;
+  background-color: blueviolet;
+}
+
+.login__display h1{
+  font-size: 6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login__display h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+}
+.login__display h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+
+.login__wrapper{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem ;
+  width: 20rem;
+  gap: 1rem;
+  border-radius: 3rem;
+  justify-content: center;
+}
+
+.login__wrapper >form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login__wrapper>form>input{
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 20rem;
+}
+
+.login__wrapper >form> button{
+  background-color: #39c;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+}
+
+
+.login__remember> a{
+  text-decoration: none;
+  color: #39c;
+  padding: 0 1.8rem;
+}
+
+.login__remember> input{
+}
+
+.login__wrapper>button{
+  background-color: white;
+  color: #39c;
+  padding: 0.8rem 6rem;
+  font-size: 1rem;
+  border-color: #39c;
+}
